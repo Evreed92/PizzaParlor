@@ -1,0 +1,74 @@
+:root {
+    --accent1: #D61616ff;
+    --textDark: #131314ff;
+    --backgroundDark: #353535ff;
+    --accent2: #2F440Cff;
+    --textLight: #F2E7D9ff;
+}
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--textLight);
+}
+
+header {
+    border-bottom: solid 5px var(--textDark);
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: var(--textLight);
+}
+
+
+.banner img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.banner h1 {
+    position: absolute;
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    font-size: 5rem;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    background-color: var(--backgroundDark);
+    position: relative;
+    text-align: center;
+    padding: 1.2%;
+}
+
+nav a {
+    margin: 0 10px 0 10px;
+    height: 100%;
+    padding: 5px 12px;
+    font-size: 2.3rem;
+    color: var(--accent1);
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: var(--textDark);
+}
+
+nav a:hover {
+    color: var(--accent2);
+    background-color: var(--textLight);
+}
