@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 /*order content styles*/
-content {
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,16 +82,16 @@ content {
 
 }
 
-content section {
+.content section {
     margin-top: 25px;
     padding: 2% 2% 2% 2%;
     border: solid black 3px;
     color: var(--accent2);
 }
 
-content section h1 {
+.content section h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 24px;
     color: var(--textDark);
 }
@@ -134,7 +134,7 @@ select {
 .card{
     padding: 5% 8%;
 }
-.card article{
+.card h5{
     font-size: 1.4rem;
     padding: 2%;
     text-wrap: wrap;
