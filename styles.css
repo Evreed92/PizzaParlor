@@ -72,12 +72,13 @@ nav a:hover {
     background-color: var(--textLight);
 }
 
-/*menu content styles*/
+/*order content styles*/
 content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -153,4 +154,48 @@ section footer{
 
 footer a img{
     width: 70%;
+}
+
+
+/* Content Styles*/ 
+
+#Menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+}
+
+.red{
+    background-color: var(--accent1);
+}
+.green{
+    background-color: var(--accent2);
+}
+.pizzaCard{
+    border: 3px solid var(--textDark);
+    color: var(--textLight);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 2%;
+    margin: 5px;
+}
+.pizzaCard p{
+    text-wrap: wrap;
+    font-size: 15pt;
+}
+.pizzaCard h2{
+    font-size: 30pt;
+}
+
+.pizzaCard img{
+    width: 60%;
+    margin: 8px 0px;
+    border-radius: 20%;
 }

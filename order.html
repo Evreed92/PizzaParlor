@@ -22,14 +22,63 @@
     <header>
         <div class="banner">
             <img src="pizza_header.jpg" alt="Pizza Header">
-            <h1>PIZZA</h1>
+            <h1>Pizza Parlor</h1>
         </div>
         <nav>
             <a href="index.html">Menu</a>
             <a href="order.html">Order</a>
         </nav>
     </header>
-    <h1>Order</h1>
-    
+    <content>
+        <section class="orderSection">
+            <h1>Order Online</h1>
+            <form>
+                <fieldset>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstname" name="firstName"><br>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName"><br>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+                <fieldset>
+                    <label for="pizza">Choose a Pizza:</label>
+                    <select name="pizza" id="pizza">
+                        <option value="meatLovers">Meat Lovers</option>
+                        <option value="veggie">Veggie</option>
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="cheese">Cheese</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="hawaiian">Hawaiian</option>
+                    </select><br>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="number" name="number" min="1">
+                </fieldset>
+                <input class="submit" type="submit">
+            </form>
+        </section>
+        <section class="contact">
+            <div class="card">
+                <article>"Great place to eat and great food too!"</article>
+                <p>Joseph Tannan</p>
+            </div>
+            <div class="card">
+                <article>"Fantastic food and wonderful service."</article>
+                <p>Donna Manzanetti</p>
+            </div>
+            <div class="card">
+                <article>"Family friendly and a wonderful experience!"</article>
+                <p>Al Amode</p>
+            </div>
+            <footer>
+                <a><img src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000"></a>
+                <a><img src="https://img.icons8.com/?size=100&id=11101&format=png&color=000000"></a>
+                <a><img src="https://img.icons8.com/?size=100&id=YoIaSvIehcuI&format=png&color=000000"></a>
+            </footer>
+        </section>
+
+
+    </content>
+
 </body>
 </html>
